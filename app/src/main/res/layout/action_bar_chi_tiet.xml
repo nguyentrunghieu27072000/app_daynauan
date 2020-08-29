@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:clickable="true"
+        android:src="@mipmap/white_heart"
+        android:id="@+id/imgyeuthich"
+        android:layout_width="30dp"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:clickable="true"
+        android:src="@mipmap/play"
+        android:id="@+id/imgplay"
+        android:layout_width="30dp"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:clickable="true"
+        android:src="@mipmap/audio"
+        android:id="@+id/imgaudio"
+        android:layout_width="30dp"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
+        android:layout_weight="1"/>
+</LinearLayout>

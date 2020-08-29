@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mon_an_yeu_thich"
+        android:title="Món ăn yêu thích"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/hom_nay_an_gi"
+        android:title="Hôm nay ăn gì"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/meo_vat"
+        android:title="Mẹo vặt"
+        app:showAsAction="never"/>
+
+</menu>

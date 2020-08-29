@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thong_tin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nguyentung.NauAnVungMien.ThongTinActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Ứng dụng nấu ăn mọi miền được thực hiện bởi 4 thành viên: Nguyễn Tuấn Dũng, Nguyễn Văn Vũ, Nguyễn Mậu Hưng và Nguyễn Sơn Tùng."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Cùng với đó, xin cám ơn công ty DevPro đã giúp đỡ thực hiện ứng dụng. Trang chủ: http://devpro.edu.vn/"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Mọi thắc mắc xin gửi về hòm thư: NguyenTungIT95@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

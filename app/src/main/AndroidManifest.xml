@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nguyentung.NauAnVungMien">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.ChiTietMonAnActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.YeuThichActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.HomNayAnGiActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.MeoVat.MeoVatActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.MeoVat.ChiTietMeoVatActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.nguyentung.NauAnVungMien.ThongTinActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

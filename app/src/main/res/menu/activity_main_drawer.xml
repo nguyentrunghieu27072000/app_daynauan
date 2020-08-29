@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnTip"
+            android:icon="@mipmap/meovat"
+            android:title="Mẹo vặt" />
+        <item
+            android:id="@+id/mnFavorite"
+            android:icon="@mipmap/yeuthich"
+            android:title="Món ăn yêu thích" />
+        <item
+            android:id="@+id/mnToday"
+            android:icon="@mipmap/angi"
+            android:title="Hôm nay ăn gì" />
+    </group>
+
+    <item android:title="Thiết lập">
+        <menu>
+            <item
+                android:id="@+id/mnInfo"
+                android:icon="@mipmap/thongtin"
+                android:title="Thông tin" />
+            <item
+                android:id="@+id/mnRate"
+                android:icon="@mipmap/danhgia"
+                android:title="Đánh giá ứng dụng" />
+            <item
+                android:id="@+id/mnFeed"
+                android:icon="@mipmap/phanhoi"
+                android:title="Phản hồi" />
+        </menu>
+    </item>
+
+    <item android:title="Chia sẻ">
+        <menu>
+            <item
+                android:id="@+id/mnFacebook"
+                android:icon="@mipmap/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/mnTwitter"
+                android:icon="@mipmap/twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+</menu>

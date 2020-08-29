@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:id="@+id/linear_meovat"
+    android:background="@drawable/selector_items_meovat">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_meovat"
+        android:layout_marginLeft="-20dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        app:civ_border_color="#fff"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/txtTenMeoVat"
+        android:text="Ten mon an"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:layout_marginTop="12dp"
+        android:src="@mipmap/more"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="30dp" />
+
+</LinearLayout>

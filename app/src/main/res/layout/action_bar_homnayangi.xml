@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Hôm nay ăn gì"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/mytext"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+</RelativeLayout>

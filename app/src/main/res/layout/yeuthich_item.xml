@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative_yeuthich"
+    android:background="@drawable/selector_monanyeuthich"
+    android:layout_height="50dp"
+    android:clickable="true"
+    android:padding="5dp">
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:text="Ca tram khoooooooooooooooooooooooo"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:id="@+id/txt_monan_yeuthich"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/img_monan_yeuthich"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:id="@+id/img_monan_yeuthich"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:civ_border_color="#fff"
+        app:civ_border_width="1dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/more"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

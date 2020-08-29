@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chitiet"
+    android:orientation="vertical"
+    tools:context="com.example.nguyentung.NauAnVungMien.ChiTietMonAnActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="510dp">
+    <LinearLayout
+        android:id="@+id/activity_chi_tiet_mon_an"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgmonan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:textColor="#fff"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:id="@+id/idTenMonAn"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Món thịt xiên nướng"
+            android:textSize="35dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#F1CA08"
+            android:text="Nguyên liệu: "
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/txtNguyenLieu"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#F1CA08"
+            android:text="Cách chế biến: "
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/txtCachCheBien"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <RelativeLayout
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:id="@+id/adChiTietMonAn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></RelativeLayout>
+
+</LinearLayout>
+
